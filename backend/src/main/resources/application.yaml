@@ -1,0 +1,10 @@
+ktor:
+    application:
+        modules:
+            - ru.tpu.web.ApplicationKt.module
+    deployment:
+        port: 8080
+postgres:
+  url: "jdbc:postgresql://localhost:5432/hostel"
+  user: postgres
+  password: zhjckfdcsy2003
